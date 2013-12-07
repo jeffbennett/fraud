@@ -18,7 +18,6 @@ $h["shipAddr"] = $_POST["shipAddr"];        // Shipping Address
 // CreditCardFraudDetection.php will take
 // MD5 hash of e-mail address passed to emailMD5 if it detects '@' in the string
 $h["emailMD5"] = $_POST["emailMD5"];
-// CreditCardFraudDetection.php will take the MD5 hash of the username/password if the length of the string is not 32
 
 $ccfs->timeout = 10;
 
